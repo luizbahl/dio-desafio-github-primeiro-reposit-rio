@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 06:37:49 "/>
+        <attribute name="created" value="VXN1YXJpbztMVUlaLVBDOzIwMjItMDItMTU7IjA1OjU5OjEyICI7MjQ1MQ=="/>
+        <attribute name="edited" value="VXN1YXJpbztMVUlaLVBDOzIwMjItMDItMTU7IjA2OjM3OjQ5ICI7MTsyNTY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite seu sobrenome: &quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Seu nome &#233;: &quot; &amp; nome &amp; &quot; e o seu sobrenome &#233; : &quot; &amp; sobrenome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
