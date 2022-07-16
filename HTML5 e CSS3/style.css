@@ -1,5 +1,5 @@
 body {
-    background-color: #f7f7f7;
+    background-color: black;
     font-family: Verdana;
     max-width: 900px;
     margin: auto;
@@ -33,7 +33,7 @@ a {
 }
 
 .post {
-    background-color: #fff;
+    background-color: whitesmoke;
     padding: 15px;
     border: 3px solid #505050;
     margin-bottom: 15px;
@@ -43,7 +43,6 @@ a {
 .post_content {
     margin: 0px;
     margin-bottom: 15px;
-    text-transform: capitalize;
     text-align: center;
 }
 
